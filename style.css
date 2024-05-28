@@ -1,0 +1,135 @@
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logo*/
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Buttons */
+.cta {
+  padding: 0px 40px;
+  border: 1px solid;
+  border-radius: 40px;
+  background-color: rgb(237, 100, 198);
+  font-size: 1em;
+}
+
+.cta-primary {
+  color: black;
+  border-color: black;
+}
+
+.cta-secondary {
+  color: white;
+  border-color: white;
+}
+
+.cta-menu {
+  /* padding: 12px 24px; */
+}
+
+.cta-alt {
+  color: cornflowerblue;
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 20px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  background-color: blueviolet;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: darkgreen;
+}
+
+nav i {
+  margin: 10px;
+  color: green;
+}
+
+.navbar {
+  display: none;
+  background-color: chartreuse;
+}
+
+.firstcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  font-size: 1rem; /* Betyder 2 * font-size i html-taggen */
+  height: 50%;
+}
+
+.containerselling {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 0, 255);
+  font-size: 1rem;
+  height: 50%;
+}
+
+.selling-text img {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+}
+
+.selling-text {
+  background-color: rgb(69, 139, 0);
+}
+
+.selling-text cta {
+  background-color: darkslateblue;
+}
+
+.containerreviews {
+  background-color: coral;
+  height: 50%;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 0, 4);
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 2024px) {
+  .logo img {
+    width: 200px;
+  }
+}
